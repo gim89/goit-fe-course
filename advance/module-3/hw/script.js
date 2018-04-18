@@ -20,11 +20,11 @@ const keyboardTop = alphabet.substring(0, alphabet.indexOf("a"));
 const keyboardMiddle = alphabet.substring(alphabet.indexOf("a"), alphabet.indexOf("z"));
 const keyboardBottom = alphabet.substring(alphabet.indexOf("z"), alphabet.length);
 
-const keyboard = [[keyboardTop], [keyboardMiddle], [keyboardBottom]];
+const keyboard = [keyboardTop, keyboardMiddle, keyboardBottom];
 console.log(keyboard);
-const wordHello = keyboardMiddle[5] + keyboardTop[2] + keyboardMiddle[8] + keyboardMiddle[8] + keyboardTop[8];
-const wordJavascript = keyboardMiddle[6] + keyboardMiddle[0] + keyboardBottom[3] + keyboardMiddle[0] + keyboardMiddle[1] + keyboardBottom[2] + keyboardTop[3] + keyboardTop[7] + keyboardTop[9] + keyboardTop[4];
-const wordTrainer = keyboardTop[4] + keyboardTop[3] + keyboardMiddle[0] + keyboardTop[7] + keyboardBottom[5] + keyboardTop[2] + keyboardTop[3];
+const wordHello = keyboard[1][5] + keyboard[0][2] + keyboard[1][8] + keyboard[1][8] + keyboard[0][8];
+const wordJavascript = keyboard[1][6] + keyboard[1][0] + keyboard[2][3] + keyboard[1][0] + keyboard[1][1] + keyboard[2][2] + keyboard[0][3] + keyboard[0][7] + keyboard[0][9] + keyboard[0][4];
+const wordTrainer = keyboard[0][4] + keyboard[0][3] + keyboard[1][0] + keyboard[0][7] + keyboard[2][5] + keyboard[0][2] + keyboard[0][3];
 
 console.log(`wordHello - ${wordHello}`);
 console.log(`wordJavascript - ${wordJavascript}`);
