@@ -1,0 +1,45 @@
+.head {
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.head-logo {
+  float: left;
+  color: #555252;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.head-m {
+  color: #1abc9c;
+  font-weight: 900;
+}
+
+.head-list {
+  float: right;
+  margin-top: 8px;
+}
+
+.head-item {
+  float: left;
+  margin-right: 30px;
+  list-style: none;
+}
+
+.head-item:last-child {
+  margin-right: 0;
+}
+
+.head-link {
+  color: #0f0101;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.head-link:hover {
+  color: #1abc9c;
+}

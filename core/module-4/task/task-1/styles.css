@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.list {
+  background-color: #234768;
+}
+
+.list-item {
+  float: left;
+  padding: 15px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  background-color: #169742;
+}

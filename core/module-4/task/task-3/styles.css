@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.list {
+  background-color: #234768;
+}
+
+.list-item {
+  float: left;
+  padding: 15px;
+  color: #0E1116;
+  list-style: none;
+  cursor: pointer;
+}
+
+.list-item:nth-child(3n+1) {
+  background-color: #88292F;
+}
+
+.list-item:nth-child(3n+2) {
+  background-color: #5DB7DE;
+}
+
+.list-item:nth-child(3n+3) {
+  background-color: #0D5D56;
+}
+
+.list-item:before {
+  float: left;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  content: "\2192";
+}
