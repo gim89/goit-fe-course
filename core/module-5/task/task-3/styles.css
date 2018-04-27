@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+.list {
+  display: inline-block;
+  background-color: grey;
+}
+
+.list-item {
+  position: relative;
+  padding: 15px;
+  float: left;
+  cursor: pointer;
+}
+
+.list-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.list_hover {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: grey;
+}
+
+.list-item:hover {
+  background-color:green;
+}
+
+.list-item:hover .list_hover {
+  display: inline-block;
+}
+
+.list_hover-item_hover {
+  padding: 5px;
+}
+
+.list_hover-item_hover:hover {
+  background-color: blue;
+}

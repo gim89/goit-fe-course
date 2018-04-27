@@ -1,0 +1,39 @@
+.head {
+  padding: 35px 0;
+  text-transform: uppercase;
+}
+
+.head-span {
+  color: #1abc9c;
+  font-weight: 900;
+}
+
+.head-logo {
+  float: left;
+  color: #555252;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.head-list {
+  float: right;
+  padding-top: 10px;
+}
+
+.head-item {
+  float: left;
+  margin-right: 35px;
+}
+
+.head-item:last-child {
+  margin-right: 0;
+}
+
+.head-link {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.head-link:hover {
+  color: #1abc9c;
+}
