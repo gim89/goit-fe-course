@@ -1,0 +1,42 @@
+.ftr {
+  padding-top: 10px;
+}
+
+.ftr-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ftr-text {
+  color: #333;
+  font-size: 14px;
+}
+
+.ftr-span {
+  color: #f38181;
+}
+
+.ftr-input {
+  position: relative;
+  right: -4px;
+  padding: 10px 5px 10px 15px;
+  padding-bottom: 11px;
+  color: #999;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  border-color: #ccc;
+  border-right: none;
+}
+
+.ftr-btn {
+  background-color: #95e1d3;
+  padding: 13px 30px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery {
+  padding: 30px 0;
+}
+
+.gallery-title {
+  margin-bottom: 80px;
+  color: grey;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.gallery-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+.gallery-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gallery-subitem {
+  width: 40%;
+  padding: 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.gallery-item {
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.gallery-item:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  transition: all .2s ease-in;
+}
+
+.gallery-item:hover .gallery-img {
+  transform: rotate(5deg);
+  transition: all .2s ease-in;
+}
+
+.gallery-item:hover .gallery-btn {
+  background-color: pink;
+  padding: 10px 80px;
+  transition: all .2s ease-in;
+}
+
+.gallery-item:hover .gallery-caption {
+  color: pink;
+  transform: scale(1.15);
+  transition: stransform .2s ease-in;
+  transition: color .2s ease-in;
+}
+
+.gallery-caption {
+  margin-bottom: 10px;
+}
+
+.gallery-text {
+  margin-bottom: 20px;
+}
+
+.gallery-btn {
+  background-color: grey;
+  padding: 10px 40px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery {
+  padding: 30px 0;
+}
+
+.gallery-title {
+  margin-bottom: 80px;
+  color: grey;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.gallery-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+.gallery-body {
+  display: flex;
+}
+
+.gallery-item {
+  width: 30%;
+  margin-right: 5%;
+  border: 10px solid green;
+}
+
+.gallery-item:hover {
+  border: 0;
+}
+
+.gallery-item:last-child {
+  margin-right: 0;
+}
