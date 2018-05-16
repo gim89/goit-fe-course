@@ -1,0 +1,16 @@
+.head {
+  padding: 40px 0;
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head-logo {
+  color: #fed136;
+  font-family: 'Montserrat';
+  font-size: 26px;
+  font-style: italic;
+}

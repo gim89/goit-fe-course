@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 940px;
+  margin: auto;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #222;
+  font-family: 'Montserrat';
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.services, 
+.contact {
+  text-align: center;
+}
+
+.subtitle {
+  padding-bottom: 80px;
+  color: #777;
+  font-family: 'Roboto Slab';
+  font-style: italic;
+}

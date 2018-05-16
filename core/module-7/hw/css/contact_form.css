@@ -1,0 +1,64 @@
+.contact_form-base {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_form-text {
+  flex-basis: 49%;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 26px;
+}
+
+input[type="text"]:last-child {
+  margin-bottom: 0;
+}
+
+::placeholder {
+  color: #bbb;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.contact_form-textarea {
+  flex-basis: 49%;
+  padding: 10px 20px;
+}
+
+input, textarea {
+  color: #bbb;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+}
+
+.contact_form-btn {
+  background-color: #fed136;
+  padding: 20px 50px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+input:valid:focus,
+textarea:valid:focus {
+  outline: 1px solid green;
+  box-shadow: 0px 0px 0px 1px green;
+}
+
+input:invalid:focus,
+textarea:invalid:focus {
+  outline: 1px solid red;
+  box-shadow: 0px 0px 0px 1px red;
+}

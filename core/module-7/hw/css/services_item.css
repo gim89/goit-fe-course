@@ -1,0 +1,22 @@
+.services-item {
+  flex-basis: 32%;
+}
+
+.services-img {
+  margin-bottom: 24px;
+}
+
+.services-caption {
+  margin-bottom: 16px;
+  color: #222;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+
+.services-text {
+  color: #777;
+  font-family: 'Roboto Slab';
+  font-size: 14px;
+  line-height: 24px;
+}

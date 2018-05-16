@@ -1,0 +1,10 @@
+.services {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.services-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
