@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'montserratbold', Arial, sans-serif;
+  font-size: 14px;
+}
+
+.wrapper {
+  width: 315px;
+  margin: auto;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  padding: 15px 50px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #ff4e50;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: .2s ease-in;
+}
+
+.btn:hover {
+  background-color: #fa6769;
+}

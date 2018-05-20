@@ -1,0 +1,41 @@
+@media all and (min-width: 768px) {
+
+  .wrapper {
+    width: 660px;
+  }
+
+  .promo {
+    padding-top: 40px;
+    padding-bottom: 240px;
+    background-image: url(../../img/tablet/promo_tablet.jpg);
+  }
+
+  .promo-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+  }
+
+  .promo-logo {
+    order: -1;
+    margin-bottom: 0;
+  }
+
+  .promo-logreg {
+    margin-bottom: 0;
+  }
+
+  .promo-container {
+    width: 480px;
+    margin: auto;
+  }
+
+  .promo-title {
+    font-size: 48px;
+  }
+  
+  .promo-subtitle {
+    font-size: 24px;
+  }
+}

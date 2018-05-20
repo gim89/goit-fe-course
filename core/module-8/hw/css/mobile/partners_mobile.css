@@ -1,0 +1,78 @@
+.partners {
+  padding: 60px 0;
+  margin: auto;
+  text-align: center;
+}
+
+.partners-title {
+  margin-bottom: 20px;
+}
+
+.partners-items {
+  margin-bottom: 30px;
+}
+
+.partners-item {
+  width: 220px;
+  margin: 0 auto 30px auto;
+}
+
+.partners-item:last-child {
+  margin-bottom: 0;
+}
+
+.partners-img {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.partners-foto {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+}
+
+.partners-icon {
+  position: absolute;
+  bottom: 0;
+  right: 25%;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
+
+.icon-one {
+  background-color: #ff4e50;
+  background-image:  url(../../img/icon_one.png);
+}
+
+.icon-two {
+  background-color: #ffa507;
+  background-image: url(../../img/icon_two.png);
+}
+
+.icon-three {
+  background-color: #1cd7ad;
+  background-image: url(../../img/icon_three.png);
+}
+
+.icon-four {
+  background-color: #4e73db;
+  background-image: url(../../img/icon_four.png);
+}
+
+.partners-caption {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 700;
+}
+
+.partners-text {
+  color: #666;
+  font-family: 'robotolight';
+  font-weight: 300;
+}

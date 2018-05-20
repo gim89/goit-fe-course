@@ -1,0 +1,18 @@
+@media all and (min-width: 940px) {
+
+  .partners {
+    padding-bottom: 70px;
+  }
+
+  .partners-items {
+    margin-bottom: 120px;
+  }
+
+  .partners-item {
+    width: 24%;
+  }
+
+  .partners-icon {
+    right: 28%;
+  }
+}
