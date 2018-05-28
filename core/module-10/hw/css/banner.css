@@ -1,0 +1,115 @@
+.head {
+  padding-top: 1.875rem;
+  padding-bottom: 14.375rem;
+  background-image: linear-gradient(#f38181, #fce38a, #eaffd0, #95e1d3), url(../img/head.jpg);
+  background-repeat: no-repeat;
+  background-blend-mode: color;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .head {
+    background-image: linear-gradient(#f38181, #fce38a, #eaffd0, #95e1d3), url(../img/head.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+  }
+}
+
+.head__part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10.625rem;
+}
+
+.head__logo {
+  color: #fff;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.head__list {
+  display: flex;
+  align-items: center;
+}
+
+.head__item {
+  padding-bottom: 0.625rem;
+  margin-right: 3.125rem;
+  border-bottom: 2px solid transparent;
+  transition: all .2s ease-in; 
+}
+
+.head__item--hover:hover {
+  border-bottom: 2px solid #fce38a;
+}
+
+.head__item--hover:hover:nth-last-child(-n+2) {
+  border-color: transparent;
+}
+
+.head__item--hover:hover .head__link{
+  color: #fce38a;
+}
+
+.head__item:nth-child(6) {
+  margin-right: 2.5rem;
+}
+
+.head__item:last-child {
+  margin-right: 0;
+}
+
+.head__link {
+  color: #fff;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  transition: all .2s ease-in;
+}
+
+.head__svg {
+  width: 1.125rem;
+  height: 1.125rem;
+  fill: #fff;
+  font-size: 1.125rem;
+  transition: all .2s ease-in;
+}
+
+.head__svg--hover:hover {
+  fill: #fce38a;
+}
+
+.head__promo {
+  width: 70%;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+}
+
+.head__text {
+  margin-bottom: 2.5rem;
+  font-family: 'kaushan_scriptregular';
+  font-size: 4.5rem;
+}
+
+.head__title {
+  margin-bottom: 7.5rem;
+  font-size: 9.375rem;
+  font-weight: 700;
+  line-height: 10rem;
+  text-transform: uppercase;
+}
+
+.head__btn {
+  padding: 0.625rem 1.875rem;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  transition: all .2s ease-in; 
+}
+
+.head__btn--hover:hover {
+  background-color: #fce38a;
+  border: 2px solid #fce38a;
+}
