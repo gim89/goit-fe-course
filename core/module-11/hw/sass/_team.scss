@@ -1,0 +1,136 @@
+.team {
+  padding-bottom: 6.25rem;
+  text-align: center;
+}
+
+.team__text,
+.team__title {
+  color: #333;
+  text-align: center;
+}
+
+.team__text {
+  margin-bottom: 1.25rem;
+  font-family: 'kaushan_scriptregular';
+  font-size: 1.5rem;
+}
+
+.team__title {
+  margin-bottom: 6rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.team__paragraph {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 6rem;
+  color: #999;
+  font-size: 0.875rem;
+}
+
+.team__body {
+  @include flex(flex, space-between, center);
+}
+
+.team__part {
+  flex-basis: 24%;
+  position: relative;
+  margin-bottom: 1.5rem;
+  transition: all .2s ease-in;
+
+  &--hover:hover {
+    top: -10px;
+    left: -10px;
+  }
+
+  &--after:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #95e1d3;
+    transition: all .2s ease-in;
+  }
+
+  &--hover--after:hover:after {
+    top: 10px;
+    left: 10px;
+    transition: all .2s ease-in;
+  }
+
+  &--hover:hover .team__hover {
+    opacity: 0.8;
+  }
+}
+
+.team__hover {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#f38181, #fce38a, #eaffd0, #95e1d3);
+  background-repeat: no-repeat;
+  background-blend-mode: color;
+  opacity: 0;
+  transition: all .2s ease-in;
+}
+
+.team__list {
+  display: flex;
+}
+
+.team__item {
+  margin-right: 1px;
+
+  .team__item:last-child {
+    margin-right: 0;
+  }
+}
+
+.team__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  background-color: #fce38a;
+
+  &--hover:hover {
+    background-color: #f38181;
+    transition: all .2s ease-in;
+  }
+
+  &--hover:hover .team__svg{
+    fill: #fff;
+    transition: all .2s ease-in;
+  }
+}
+
+.team__svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #f38181;
+  font-size: 1.125rem;
+}
+
+.team__caption {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.team__subcaption {
+  color: #999;
+  font-size: 0.9375rem;
+  font-weight: 300;
+  font-style: italic;
+}
+

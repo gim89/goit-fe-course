@@ -1,0 +1,10 @@
+body {
+  color: #424242;
+  font-family: Roboto, sans-serif;
+  font-size: 1.125rem; }
+
+body:hover {
+  color: #03A9F4;
+  cursor: pointer; }
+
+/*# sourceMappingURL=styles.css.map */

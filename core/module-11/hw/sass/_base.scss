@@ -1,0 +1,17 @@
+body {
+  font-family: 'montserratbold';
+}
+
+.wrapper {
+  width: 1200px;
+  margin: auto;
+}
+
+h2:after {
+  display: block;
+  content: "";
+  width: 3.75rem;
+  height: 2px;
+  margin: 2.75rem auto 0 auto;
+  background-color: #f38181;
+}

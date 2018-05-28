@@ -1,0 +1,8 @@
+@mixin font($font-size, $line-height) {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+body {
+  @include font(1rem, 1.5);
+}

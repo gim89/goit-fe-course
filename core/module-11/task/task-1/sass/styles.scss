@@ -1,0 +1,16 @@
+$fontFamily: Roboto, sans-serif;
+$color: #424242;
+$colorHover: #03A9F4;
+$fontSize: 1.125rem;
+$cursor: pointer;
+
+body {
+  color: $color;
+  font-family: $fontFamily;
+  font-size: $fontSize;
+}
+
+body:hover {
+  color: $colorHover;
+  cursor: $cursor;
+}
