@@ -1,0 +1,16 @@
+@media all and (min-width: 60rem) {
+
+  .promo {
+    padding-top: 2.5rem;
+    padding-bottom: 15rem;
+    background-image: url(../../img/desktop/promo_desktop.jpg);
+  }
+
+  .promo-logo {
+    padding-left: 1rem;
+  }
+
+  .promo-subtitle {
+    margin-bottom: 1.875rem;
+  }
+}

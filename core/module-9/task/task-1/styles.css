@@ -1,0 +1,13 @@
+.content,
+.sidebar {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.content {
+  background-color: red;
+}
+
+.sidebar {
+  background-color: blue;
+}

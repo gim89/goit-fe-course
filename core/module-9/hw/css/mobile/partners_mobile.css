@@ -1,0 +1,80 @@
+.partners {
+  padding: 3.75rem 0;
+  text-align: center;
+}
+
+.partners-title {
+  margin-bottom: 1.125rem;
+  font-size: 1.375rem;
+}
+
+.partners-items {
+  margin-bottom: 1.875rem;
+}
+
+.partners-item {
+  width: 13.75rem;
+  margin: 0 auto 1.875rem auto;
+}
+
+.partners-item:last-child {
+  margin-bottom: 0;
+}
+
+.partners-img {
+  position: relative;
+  margin-bottom: 1.125rem;
+}
+
+.partners-foto {
+  width: 7.5rem;
+  height: 7.5rem;
+  margin: auto;
+}
+
+.partners-icon {
+  position: absolute;
+  bottom: 0;
+  right: 25%;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
+
+.icon-one {
+  background-color: #ff4e50;
+  background-image:  url(../../img/icon_one.png);
+}
+
+.icon-two {
+  background-color: #ffa507;
+  background-image: url(../../img/icon_two.png);
+}
+
+.icon-three {
+  background-color: #1cd7ad;
+  background-image: url(../../img/icon_three.png);
+}
+
+.icon-four {
+  background-color: #4e73db;
+  background-image: url(../../img/icon_four.png);
+}
+
+.partners-caption {
+  margin-bottom: 1.125rem;
+  color: #333;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.partners-text {
+  color: #666;
+  font-family: 'robotolight';
+  font-size: 0.875rem;
+  font-weight: 300;
+}

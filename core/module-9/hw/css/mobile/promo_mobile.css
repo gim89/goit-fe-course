@@ -1,0 +1,49 @@
+.promo {
+  padding-top: 1.25rem;
+  padding-bottom: 8.75rem;
+  color: #fff;
+  text-align: center; 
+  background-image: url(../../img/mobile/promo_mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo-logreg {
+  margin-bottom: 7.5rem;
+}
+
+.promo-link {
+  padding: 0.625rem 1.25rem;
+  font-weight: 700;
+  border: 2px solid transparent;
+  border-radius: 1.5rem;
+  transition: .2s ease-in;
+}
+
+.promo-link:hover {
+  border: 2px solid #fff;
+}
+
+.promo-title,
+.promo-logo {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.promo-logo {
+  display: inline-block;
+  margin-bottom: 2.5rem;
+  font-size: 1.25rem;
+}
+
+.promo-title {
+  margin-bottom: 1.25rem;
+  font-size: 1.8rem;
+}
+
+.promo-subtitle {
+  margin-bottom: 1.25rem;
+  font-family: 'robotolight';
+  font-size: 1rem;
+  font-weight: 300;
+}

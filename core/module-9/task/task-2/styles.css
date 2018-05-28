@@ -1,0 +1,13 @@
+.item {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.item:first-child,
+.item:last-child {
+  background-color: red;
+}
+
+.item:nth-child(2) {
+  background-color: blue;
+}

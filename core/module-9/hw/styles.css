@@ -1,0 +1,8 @@
+@import "css/fonts.css";
+@import "css/base.css";
+@import "css/mobile/promo_mobile.css";
+@import "css/mobile/partners_mobile.css";
+@import "css/tablet/promo_tablet.css";
+@import "css/tablet/partners_tablet.css";
+@import "css/desktop/promo_desktop.css";
+@import "css/desktop/partners_desktop.css";

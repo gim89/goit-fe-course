@@ -1,0 +1,36 @@
+@media all and (min-width: 48rem) {
+
+  .promo {
+    padding-top: 2.5rem;
+    padding-bottom: 15rem;
+    background-image: url(../../img/tablet/promo_tablet.jpg);
+  }
+
+  .promo-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9.375rem;
+  }
+
+  .promo-logo {
+    order: -1;
+    margin-bottom: 0;
+  }
+
+  .promo-logreg {
+    margin-bottom: 0;
+  }
+
+  .promo-container {
+    margin: auto;
+  }
+
+  .promo-title {
+    font-size: 3rem;
+  }
+  
+  .promo-subtitle {
+    font-size: 1.5rem;
+  }
+}
